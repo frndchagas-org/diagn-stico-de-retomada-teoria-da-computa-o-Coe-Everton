@@ -9,27 +9,31 @@ Responda individualmente. Use suas palavras. Se usar IA depois da primeira tenta
 
 Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi ou não tenho certeza.
 
-- alfabeto:
-- cadeia:
-- linguagem:
-- gramática:
-- autômato finito:
-- linguagem regular:
-- linguagem livre de contexto:
-- linguagem sensível ao contexto:
-- linguagem irrestrita:
-- hierarquia de Chomsky:
-- computabilidade:
-- máquina de Turing:
+- alfabeto: lembro parcialmente
+- cadeia:lembro parcialmente
+- linguagem:lembro parcialmente
+- gramática:lembro parcialmente
+- autômato finito: nao lembro
+- linguagem regular: nao lembro
+- linguagem livre de contexto: nao lembro
+- linguagem sensível ao contexto: nao lembro
+- linguagem irrestrita:nao lembro
+- hierarquia de Chomsky:nao lembro
+- computabilidade:lembro parcialmente
+- máquina de Turing:lembro parcialmente
 
 ## 2. Definições com exemplo
 
 Explique, com suas palavras e com um exemplo simples, usando o alfabeto `Sigma = {a, b}`.
 
 1. O que é um alfabeto?
+é um conjunto limitado de caracteres sem significado previo
 2. O que é uma cadeia?
+é a combinação de caracteres de um alfabeto que pode ter um sentindo
 3. O que é uma linguagem?
+é um dicionario de cadeia que tem sentindo e regras padroes 
 4. O que é uma gramática?
+é a maneira de como escrever uma liguagem 
 
 ## 3. Linguagens
 
@@ -44,9 +48,13 @@ L3 = { a^n b^n c^n | n >= 0 }
 Para cada linguagem:
 
 1. escreva três palavras que pertencem à linguagem;
+01, 1101 e 000101
 2. escreva duas palavras que não pertencem;
+abb, ba
 3. diga, se souber, em qual classe ela provavelmente se encaixa;
+nao sei
 4. explique o motivo em linguagem simples.
+nao sei
 
 Não há problema em dizer "não sei". Nesse caso, escreva o que te deixou em dúvida.
 
@@ -71,14 +79,17 @@ q2 --1--> q0
 Responda:
 
 1. Qual linguagem esse autômato parece reconhecer?
+binaria
 2. Execute manualmente as cadeias abaixo e diga se aceita ou rejeita:
-   - `01`
-   - `101`
-   - `100`
-   - `1101`
-   - `111`
+   - `01` - sim
+   - `101` - sim
+   - `100` - nao
+   - `1101` - sim
+   - `111` - nao
+   
 3. Monte uma tabela curta mostrando o caminho dos estados para pelo menos duas cadeias.
-
+1 -q0 -> q1 -> q2
+2 - q0 -> q0 -> q1 -> q2
 ## 5. Gramática
 
 Considere a gramática:
@@ -91,11 +102,14 @@ S -> b
 Responda:
 
 1. Gere cinco cadeias produzidas por essa gramática.
+aaaab, ab, b, aaab, ab
 2. Descreva a linguagem em palavras.
+Nao sei
 3. Essa gramática parece regular, livre de contexto ou outra classe? Justifique de forma simples.
+nao sei
 
 ## 6. Ponto de dificuldade
-
+ 
 Escolha um tópico da lista inicial e escreva:
 
 1. o que você entende dele;
@@ -107,7 +121,7 @@ Escolha um tópico da lista inicial e escreva:
 Se você usou IA depois da primeira tentativa, registre:
 
 ```text
-Pergunta feita:
+Pergunta feita: 
 Resumo da resposta:
 Como eu verifiquei:
 O que eu alterei na minha resposta:
